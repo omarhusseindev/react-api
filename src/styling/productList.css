@@ -1,0 +1,49 @@
+
+html, body { height: 100% }
+
+.priceWas {
+    text-decoration: line-through;
+}
+
+p.card-text {
+    word-break: break-all;
+    white-space: break-spaces;
+}
+
+@media (min-width:961px)  { 
+    .row {
+        width: 23%;
+        float: left;
+    } 
+    .col-sm-8 {
+        flex: unset;
+        max-width: unset;
+    }
+    
+}
+
+.row {
+    cursor: pointer;
+}
+
+.card-title {
+    word-break: break-word;
+    white-space: break-spaces;
+}
+
+.options.d-flex.flex-fill {
+    display: block!important;
+}
+
+.promotion {
+    color: crimson;
+}
+
+.card-body.active {
+    border: 1px solid black;
+}
+.card-img.active + div{
+    border: 1px solid black;
+}
+
+
